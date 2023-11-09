@@ -1,3 +1,13 @@
+@font-face {
+    font-family: Berlin;
+    src: url(../font/Berlin.ttf);
+}
+
+body{
+    font-family: Berlin;
+    letter-spacing: 1.5px;
+}
+
 .py-4 {
     padding-top: 1.75rem!important;
     padding-bottom: 1.75rem!important;
