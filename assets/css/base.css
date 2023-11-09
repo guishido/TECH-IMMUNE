@@ -1,0 +1,25 @@
+.py-4 {
+    padding-top: 1.75rem!important;
+    padding-bottom: 1.75rem!important;
+}
+
+.btn-primary{
+    --bs-btn-bg: #94B734;
+    --bs-btn-border-color: #94B734;
+    font-weight: bold;
+}
+
+.btn:hover, .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    background-color: #94B734;
+    border-color: #94B734;
+}
+
+.nav{
+    --bs-nav-link-color: #000000;
+    font-weight: bold;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #94B734;
+    background-color: #fff;
+}
