@@ -14,6 +14,11 @@
     border-color: #94B734;
 }
 
+.color-h1, .text-body-emphasis{
+    color: #94B734;
+    --bs-emphasis-color: #94B734;
+}
+
 .nav{
     --bs-nav-link-color: #000000;
     font-weight: bold;
@@ -22,4 +27,13 @@
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #94B734;
     background-color: #fff;
+}
+
+.py-5 {
+    padding-top: 0.5rem!important;
+    padding-bottom: 1.5rem!important;
+}
+
+.col{
+    border-right: 1px solid lightgray;
 }
