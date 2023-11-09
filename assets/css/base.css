@@ -6,6 +6,7 @@
 body{
     font-family: Berlin;
     letter-spacing: 1.5px;
+    
 }
 
 .py-4 {
@@ -55,21 +56,52 @@ body{
 
 .lead{
     color: rgb(15, 23, 95);
+    text-align: center;
+}
+
+.display-5{
+    text-align: center;
+    font-size: 30px;
+}
+
+.display-6{
+    text-align: center;
+    font-size: 30px;
 }
 
 .fs-4{
     color: #000000;
 }
 
-.titulo1{
-    text-align: right;
-    margin: auto;
+.texto{
+    margin-right: -485px;
+    margin-top: -233px;
+    font-size: 16px;
+    line-height: 25px;
 }
 
-.texto{
-    text-align: right;
-    margin: auto;
+.texto1{
+    font-size: 16px;
+    margin-right: -485px;
+    margin-top: -220px;
+    line-height: 25px;
 }
+
+.texto2{
+    font-size: 16px;
+    margin-right: -485px;
+    margin-top: -220px;
+    text-align: center;
+    line-height: 25px;
+}
+
+
+.textocampanha{
+    font-size: 15px;
+    text-align: center;
+    line-height: 25px;
+}
+
 
 .b-example-divider {
     width: 100%;
