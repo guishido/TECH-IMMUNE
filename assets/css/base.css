@@ -1,3 +1,7 @@
+:root {
+    --cor-principal: #2ebf91;
+}
+
 @font-face {
     font-family: Berlin;
     src: url(../font/Berlin.ttf);
@@ -14,8 +18,8 @@ body{
 }
 
 .btn-primary{
-    --bs-btn-bg: #2ebf91;
-    --bs-btn-border-color: 
+    --bs-btn-bg: var(--cor-principal);
+    --bs-btn-border-color: ;
     font-weight: bold;
 }
 
@@ -25,7 +29,6 @@ body{
 }
 
 .color-h1, .text-body-emphasis{
-    color: #94B734;
     --bs-emphasis-color: rgb(0, 8, 78);
 }
 
@@ -44,13 +47,8 @@ body{
     padding-bottom: 1.5rem!important;
 }
 
-.col{
-    border-right: 1px solid lightgray;
-}
-
 .nav-link:focus, .nav-link:hover{
     color: #9b9b9b;
-
 }
 
 .lead{
@@ -112,7 +110,7 @@ body{
 .card{
     margin-bottom: 1.25rem;
     height: 25rem;
-    border-color: #94B734;
+    border-color: var(--cor-principal);
     box-shadow: 0px 0px 50px 15px rgba(48, 48, 48, 0.253);
     transition: all 0.3s linear;
 }
@@ -125,7 +123,7 @@ body{
 }
 
 .card:hover{
-    background-color: #94B734;
+    background-color: var(--cor-principal);
     color: white;
     opacity: 100;
 }
@@ -139,6 +137,58 @@ body{
     height: auto;
 }
 
+.icons-social{
+    width: 30px;
+    height: auto;
+}
+
+.nav-icons{
+    display: flex;
+    justify-content: center;
+}
+
 .row{
     justify-content: space-between;
+    align-items: center;
+}
+
+.border-top{
+    margin-top: 5rem;
+    padding-top: 1.75rem;
+}
+
+.div-contato{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.tabela-contato{
+    display: flex;
+    flex-direction: column;
+}
+
+.lista-contato{
+    list-style-type:none;
+    margin: 0;
+}
+
+.lista-contato > li {
+    padding-bottom: 0.75rem;
+    text-align: center;
+    width: 175px;
+}
+
+.lista-contato > li > a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.icons-contato{
+    width: 25px;
+}
+
+.formulario{
+    font-family: Berlin;
+    font-weight: bold;
 }
