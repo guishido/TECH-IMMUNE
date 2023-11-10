@@ -1,5 +1,7 @@
 :root {
+    --fonte-primaria:'Berlin', sans-serif;
     --cor-principal: #2ebf91;
+    --cor-secundaria: #8360c3;
 }
 
 @font-face {
@@ -100,6 +102,15 @@ body, .btn-form{
     line-height: 25px;
 }
 
+.titulocampanha{
+    text-align: center;
+    font-size: 35px;
+}
+
+.titulocampanha1{
+    text-align: center;
+    margin-right: 80px;
+}
 
 .b-example-divider {
     width: 100%;
@@ -138,10 +149,11 @@ body, .btn-form{
     padding: 1.5rem 0;
 }
 
+
 .card{
     margin-bottom: 1.25rem;
     height: 25rem;
-    border-color: var(--cor-principal);
+    border-color: #8360c3;
     box-shadow: 0px 0px 50px 15px rgba(48, 48, 48, 0.253);
     transition: all 0.3s linear;
 }
