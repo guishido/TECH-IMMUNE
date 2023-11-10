@@ -2,123 +2,155 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tech Immune</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/base.css">
-    <link rel="icon" href="assets/img/Imagem1.png" type="image/x-icon">
-    <link rel="stylesheet" href="assets/css/base.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech Immune</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="icon" href="assets/img/Imagem1.png" type="image/x-icon">
+  <link rel="stylesheet" href="assets/css/base.css">
 </head>
 
 <body>
-    <div class="container">
-        <header class="d-flex flex-wrap justify-content-center py-4 mb-4">
-            <a href="/"
-                class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-                <img src="assets/img/Imagem1.png" class="bi me-2" width="40" height="32">
-                </img>
-                <span class="fs-4">Tech Immune</span>
-            </a>
+  <div class="container">
+    <header class="d-flex flex-wrap justify-content-center py-4 mb-4">
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <img src="assets/img/Imagem1.png" class="bi me-2" width="40" height="32">
+        </img>
+        <span class="fs-4">Tech Immune</span>
+      </a>
 
-            <ul class="nav nav-pills">
-                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="quem-somos.html" class="nav-link">Quem Somos</a></li>
-                <li class="nav-item"><a href="contato.html" class="nav-link">Contato</a></li>
-                <li class="nav-item"><a href="solicite-seu-orcamento.html" class="btn btn-primary" role="button" aria-disabled="true">Solicite seu Projeto</a></li>
-            </ul>
-        </header>
-    </div>
-    <div class="container">
-        <form>
-            <div class="form-group row">
-              <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-              <div class="col-sm-10">
-                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-              </div>
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="quem-somos.html" class="nav-link">Quem Somos</a></li>
+        <li class="nav-item"><a href="contato.html" class="nav-link">Contato</a></li>
+        <li class="nav-item"><a href="solicite-seu-orcamento.html" class="btn btn-primary" role="button"
+            aria-disabled="true">Solicite seu Projeto</a></li>
+      </ul>
+    </header>
+  </div>
+  <div class="container-sm form-container">
+    <form class="formulario" action="https://formsubmit.co/exemplo@email.com" method="POST" enctype="multipart/form-data">
+      <div class="form-group row row-form">
+        <label for="inputEmail3" class="col-sm-2 col-form-label">Nome</label>
+        <div class="col-sm-10">
+          <input type="text" name="Nome" class="form-control" id="inputEmail3" placeholder="Nome">
+        </div>
+      </div>
+      <div class="form-group row row-form">
+        <label for="text" class="col-sm-2 col-form-label">Telefone</label>
+        <div class="col-sm-10">
+          <input type="text" name="Telefone" class="form-control" id="inputEmail3" placeholder="(XX) XXXXX-XXXX" minlength="14"
+            maxLength="14">
+        </div>
+      </div>
+      <div class="form-group row row-form">
+        <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+        <div class="col-sm-10">
+          <input type="email" name="Email" class="form-control" id="inputEmail3" placeholder="Email">
+        </div>
+      </div>
+      <div class="form-group row row-form">
+        <label for="inputEmail3" class="col-sm-2 col-form-label">Empresa</label>
+        <div class="col-sm-10">
+          <input type="text" name="Empresa" class="form-control" id="inputEmail3" placeholder="Empresa">
+        </div>
+      </div>
+      <div class="form-group row row-form">
+        <label for="inputEmail3" class="col-sm-2 col-form-label">Quantidade de colaboradores</label>
+        <div class="col-sm-10">
+          <input type="number" name="Quantidade de colaboradores?" class="form-control" id="inputEmail3" placeholder="Ex: 60">
+        </div>
+      </div>
+      <div class="form-group row row-form">
+        <label for="inputEmail3" class="col-sm-2 col-form-label">Quantidade de dependentes</label>
+        <div class="col-sm-10">
+          <input type="number" name="Quantidade de dependentes?" class="form-control" id="inputEmail3" placeholder="Ex: 60">
+        </div>
+      </div>
+      <fieldset class="form-group">
+        <div class="row row-form">
+          <legend class="col-form-label col-sm-2 pt-0">A empresa subsidia a vacina?</legend>
+          <div class="col-sm-10">
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="Subsidia a vacina?" id="subsidia_a_vacina1" value="Sim">
+              <label class="form-check-label" for="subsidia_a_vacina1">Sim</label>
             </div>
-            <div class="form-group row">
-              <label for="inputPassword3" class="col-sm-2 col-form-label">Senha</label>
-              <div class="col-sm-10">
-                <input type="password" class="form-control" id="inputPassword3" placeholder="Senha">
-              </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="Subsidia a vacina?" id="subsidia_a_vacina2" value="Não">
+              <label class="form-check-label" for="subsidia_a_vacina2">Não</label>
             </div>
-            <fieldset class="form-group">
-              <div class="row">
-                <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
-                <div class="col-sm-10">
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="opcao1" checked>
-                    <label class="form-check-label" for="gridRadios1">
-                      Primeiro radio
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="opcao2">
-                    <label class="form-check-label" for="gridRadios2">
-                      Segundo radio
-                    </label>
-                  </div>
-                  <div class="form-check disabled">
-                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="opcao3" disabled>
-                    <label class="form-check-label" for="gridRadios3">
-                      Terceiro radio desativado
-                    </label>
-                  </div>
-                </div>
-              </div>
-            </fieldset>
-            <div class="form-group row">
-              <div class="col-sm-2">Checkbox</div>
-              <div class="col-sm-10">
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="gridCheck1">
-                  <label class="form-check-label" for="gridCheck1">
-                    Checkbox exemplo
-                  </label>
-                </div>
-              </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="Subsidia a vacina?" id="subsidia_a_vacina3" value="Parcial">
+              <label class="form-check-label" for="subsidia_a_vacina3">Parcial</label>
             </div>
-            <div class="form-group row">
-              <div class="col-sm-10">
-                <button type="submit" class="btn btn-primary">Entrar</button>
-              </div>
+          </div>
+        </div>
+      </fieldset>
+      <div class="mb-3">
+        <label for="Unidades" class="form-label">Cidades/Bairros onde possui unidades (Preferencialmente com a quantidade de colaboradores em cada uma delas)</label>
+        <textarea class="form-control" name="Cidades/Bairros que possui unidade?" id="Unidades" rows="3"></textarea>
+      </div>
+      <fieldset class="form-group">
+        <div class="row row-form">
+          <legend class="col-form-label col-sm-2 pt-0">Possui turnos?</legend>
+          <div class="col-sm-10">
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="Possui turno?" id="Possui_turno1" value="Sim">
+              <label class="form-check-label" for="Possui_turno1">Sim</label>
             </div>
-          </form>
-    </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="Possui turno?" id="Possui_turno2" value="Não">
+              <label class="form-check-label" for="Possui_turno2">Não</label>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+      <div class="mb-3">
+        <label for="Conte_nos_sobre" class="form-label">Conte-nos sobre suas necessidades</label>
+        <textarea class="form-control" name="Conte-nos sobre" id="Conte_nos_sobre" rows="3"></textarea>
+      </div>
+      <div class="mb-3">
+        <label for="" class="form-label">Se preferir, nos envie o arquivo com essas informações clicando aqui ou através do e-mail <a class="link-email" href="mailto:projetos@techimmune.com.br">projetos@techimmune.com.br</a> </label>
+        <input class="form-control" type="file" name="Anexo" id="formFile">
+      </div>
+      <div class="form-group row">
+        <div class="col-sm-10">
+          <button type="submit" class="btn btn-primary btn-form">Enviar</button>
+        </div>
+      </div>
+    </form>
+  </div>
 
-    <div class="container">
-        <footer class="row row-cols-2 row-cols-sm-3 row-cols-md-3 border-top">
-            <div class="col mb-5">
-                <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
-                    <img src="assets/img/Imagem1.png" alt="Logo" class="icons-footer">
-                </a>
-                <nav class="nav nav-icons">
-                    <a class="nav-link" href="#"><img class="icons-social" src="assets/img/icons8-facebook.svg"
-                            alt="Icone Facebook"></a>
-                    <a class="nav-link" href="#"><img class="icons-social" src="assets/img/icons8-instagram.svg"
-                            alt="Icone Instagram"></a>
-                    <a class="nav-link" href="#"><img class="icons-social" src="assets/img/icons8-twitter.svg"
-                            alt="Icone Twitter"></a>
-                </nav>
-            </div>
-            <div class="col mb-5">
-                <ul class="nav flex-column">
-                    <li class="nav-item mb-2"><a href="#inicio" class="nav-link p-0 text-body-secondary">Home</a></li>
-                    <li class="nav-item mb-2"><a href="quem-somos.html" class="nav-link p-0 text-body-secondary">Quem
-                            Somos</a></li>
-                    <li class="nav-item mb-2"><a href="contato.html"
-                            class="nav-link p-0 text-body-secondary">Contato</a></li>
-                </ul>
-            </div>
-        </footer>
-    </div>
-
-    <script src="assets/js/formulario.js"> </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+  <div class="container">
+    <footer class="row row-cols-2 row-cols-sm-3 row-cols-md-3 border-top">
+      <div class="col mb-5">
+        <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+          <img src="assets/img/Imagem1.png" alt="Logo" class="icons-footer">
+        </a>
+        <nav class="nav nav-icons">
+          <a class="nav-link" href="#"><img class="icons-social" src="assets/img/icons8-facebook.svg"
+              alt="Icone Facebook"></a>
+          <a class="nav-link" href="#"><img class="icons-social" src="assets/img/icons8-instagram.svg"
+              alt="Icone Instagram"></a>
+          <a class="nav-link" href="#"><img class="icons-social" src="assets/img/icons8-twitter.svg"
+              alt="Icone Twitter"></a>
+        </nav>
+      </div>
+      <div class="col mb-5">
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#inicio" class="nav-link p-0 text-body-secondary">Home</a></li>
+          <li class="nav-item mb-2"><a href="quem-somos.html" class="nav-link p-0 text-body-secondary">Quem
+              Somos</a></li>
+          <li class="nav-item mb-2"><a href="contato.html" class="nav-link p-0 text-body-secondary">Contato</a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
