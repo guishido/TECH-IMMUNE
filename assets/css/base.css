@@ -9,7 +9,7 @@
     src: url(../font/Berlin.ttf);
 }
 
-body{
+body, .btn-form{
     font-family: Berlin;
     letter-spacing: 1.5px;
     
@@ -232,7 +232,27 @@ body{
     width: 25px;
 }
 
+.form-container{
+    width: 800px;
+}
+
 .formulario{
     font-family: Berlin;
     font-weight: bold;
+}
+
+.row-form{
+    margin-bottom: 1.25rem;
+}
+
+.form-check-input, .form-control{
+    border: var(--bs-border-width) solid gray;
+}
+
+.form-control[type=file]:not(:disabled):not([readonly]){
+    letter-spacing: 1.5px;
+}
+
+.link-email{
+    text-decoration: none;
 }
