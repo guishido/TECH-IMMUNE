@@ -128,7 +128,6 @@ body, .btn-form{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    width: 70%;
     margin: 0 auto;
     padding: 1.25rem;
 }
@@ -187,6 +186,7 @@ body, .btn-form{
 .border-top{
     margin-top: 5rem;
     padding-top: 1.75rem;
+    border-top: .75px var(--bs-border-style) black!important;
 }
 
 .div-contato{
@@ -243,4 +243,16 @@ body, .btn-form{
 
 .link-email{
     text-decoration: none;
+}
+
+.header{
+    display: flex!important;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.border-div-top{
+    padding-top: 3rem;
+    padding-bottom: 1.5rem!important;
 }
