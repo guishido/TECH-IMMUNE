@@ -80,6 +80,22 @@ body, .btn-form{
     line-height: 25px;
 }
 
+#texto-escondido {
+    display: none;
+    margin-top: 10px; /* Espaçamento acima do texto escondido */
+    color: #333; /* Cor do texto escondido */
+}
+
+#link-continue-lendo {
+    text-decoration: none; /* Remover sublinhado padrão do link */
+    color: #007BFF; /* Cor do link */
+    cursor: pointer; /* Cursor ao passar o mouse sobre o link */
+}
+
+#link-continue-lendo:hover {
+    color: #0056b3; /* Cor do link ao passar o mouse sobre ele */
+}
+
 .texto1{
     font-size: 16px;
     margin-right: -485px;
@@ -102,14 +118,34 @@ body, .btn-form{
     line-height: 25px;
 }
 
+.botaovacinacalendario{
+    margin-right: -10px;
+    margin-top: 5px;
+}
+
+.botaovacinahome{
+    margin-top: 30px;
+    margin-left: 380px;
+}
+
 .titulocampanha{
     text-align: center;
     font-size: 35px;
 }
 
-.titulocampanha1{
+.titulocampanhavacina{
+    margin-top: 100px;
     text-align: center;
-    margin-right: 80px;
+    margin-right: 50px;
+}
+
+.titulocampanha1{
+    margin-left: 60px;
+    margin-top: 80px;
+    text-align: center;
+    font-size: 35px;
+
+    
 }
 
 .b-example-divider {
@@ -269,4 +305,3 @@ body, .btn-form{
     padding-top: 3rem;
     padding-bottom: 1.5rem!important;
 }
-
