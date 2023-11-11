@@ -91,11 +91,6 @@ body, .btn-form{
     margin-top: 10px; 
 }
 
-#texto-escondido1 {
-    display: none;  
-    margin-top: 10px; 
-}
-
 #link-continue-lendo {
     text-decoration: none; 
     color: #007BFF; 
@@ -255,8 +250,19 @@ body, .btn-form{
     color: #000000;
 }
 
+.icons-whats{
+    width: 35px;
+    margin-top: 20px;
+}
+
+.icons-whats:hover{
+    background-color: #25D366;
+}
+
+
 .icons-contato{
-    width: 25px;
+    width: 35px;
+    margin-top: 20px;
 }
 
 .form-container{
