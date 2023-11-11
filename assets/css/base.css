@@ -58,6 +58,13 @@ body, .btn-form{
     color: rgb(15, 23, 95);
 }
 
+.display-4{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
 .display-5{
     text-align: center;
     font-size: 30px;
@@ -85,13 +92,13 @@ body, .btn-form{
 }
 
 #link-continue-lendo {
-    text-decoration: none; /* Remover sublinhado padrão do link */
-    color: #007BFF; /* Cor do link */
-    cursor: pointer; /* Cursor ao passar o mouse sobre o link */
+    text-decoration: none; 
+    color: #007BFF; 
+    cursor: pointer; 
 }
 
 #link-continue-lendo:hover {
-    color: #0056b3; /* Cor do link ao passar o mouse sobre ele */
+    color: #0056b3; 
 }
 
 .texto1{
@@ -112,7 +119,7 @@ body, .btn-form{
 
 .textocampanha{
     font-size: 15px;
-    text-align: center;
+    text-align: left    ;
     line-height: 25px;
 }
 
@@ -243,8 +250,19 @@ body, .btn-form{
     color: #000000;
 }
 
+.icons-whats{
+    width: 35px;
+    margin-top: 20px;
+}
+
+.icons-whats:hover{
+    background-color: #25D366;
+}
+
+
 .icons-contato{
-    width: 25px;
+    width: 35px;
+    margin-top: 20px;
 }
 
 .form-container{
