@@ -226,6 +226,8 @@ body, .btn-form{
 .div-contato{
     display: flex;
     justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -239,26 +241,22 @@ body, .btn-form{
     margin: 0;
 }
 
-.lista-contato > li {
-    padding-bottom: 0.75rem;
-    text-align: center;
-    width: 175px;
+.contato-li{
+    margin:.25rem 0;
 }
 
-.lista-contato > li > a{
+.contato-li > a{
     text-decoration: none;
-    color: #000000;
+}
+
+.contato-center{
+    align-items: center;
 }
 
 .icons-whats{
     width: 35px;
     margin-top: 20px;
 }
-
-.icons-whats:hover{
-    background-color: #25D366;
-}
-
 
 .icons-contato{
     width: 35px;
@@ -316,6 +314,29 @@ body, .btn-form{
     border-color: var(--cor-principal);
 }
 
+.titulo-contato{
+    font-size: 2.25rem;
+}
+
+.botao-whatsapp {
+    display: block;
+    width: 75px;
+    height: 75px;
+    background: url(../img/whatsapp-logo.png) no-repeat center center;
+    z-index: 998;
+    background-size: 100%;
+    opacity: .53;
+    cursor: pointer;
+    position: fixed;
+    bottom: 15px;
+    right: 10px;
+    transition: all .5s;
+}
+
+.botao-whatsapp:hover {
+    opacity: 1;
+}
+
 @media screen and (max-width: 767px) {
     .header{
         flex-direction: column;
@@ -367,6 +388,22 @@ body, .btn-form{
 }
 
 @media screen and (min-width: 767px) and (max-width: 1023px) {
+
+    .header, .row{
+        flex-direction: column;
+    }
+
+    .reverse{
+        flex-direction: column-reverse;
+    }
+
+    .col-sm-10{
+        width: 100%;
+    }
+
+    .row-form{
+        flex-direction: row;
+    }
 
 
 }
