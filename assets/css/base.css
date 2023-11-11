@@ -56,7 +56,6 @@ body, .btn-form{
 
 .lead{
     color: rgb(15, 23, 95);
-    text-align: center;
 }
 
 .display-5{
@@ -126,26 +125,6 @@ body, .btn-form{
 .botaovacinahome{
     margin-top: 30px;
     margin-left: 380px;
-}
-
-.titulocampanha{
-    text-align: center;
-    font-size: 35px;
-}
-
-.titulocampanhavacina{
-    margin-top: 100px;
-    text-align: center;
-    margin-right: 50px;
-}
-
-.titulocampanha1{
-    margin-left: 60px;
-    margin-top: 80px;
-    text-align: center;
-    font-size: 35px;
-
-    
 }
 
 .b-example-divider {
@@ -304,4 +283,54 @@ body, .btn-form{
 .border-div-top{
     padding-top: 3rem;
     padding-bottom: 1.5rem!important;
+}
+
+@media screen and (max-width: 767px) {
+    .header{
+        flex-direction: column;
+    }
+
+    .nav{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .row{
+        flex-direction: column;
+    }
+
+    .reverse{
+        flex-direction: column-reverse;
+    }
+
+    .center-responsive{
+       text-align: center;
+       align-items: center;
+    }
+
+    .div-contato{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tabela-contato > h4{
+        margin-bottom: 1rem;
+    }
+
+    .text-btn{
+        letter-spacing: .25rem;
+    }
+
+    .form-container{
+        width: 99vw;
+    }
+
+    .row-form{
+        flex-direction: row;
+    }
+
+    .p-left{
+        text-align: left;
+    }
+
 }
