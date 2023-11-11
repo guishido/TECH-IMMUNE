@@ -35,7 +35,7 @@ body, .btn-form{
     --bs-emphasis-color: rgb(0, 8, 78);
 }
 
-.nav{
+.nav,.accordion-button{
     --bs-nav-link-color: #000000;
     font-weight: bold;
 }
@@ -82,7 +82,6 @@ body, .btn-form{
 #texto-escondido {
     display: none;
     margin-top: 10px; /* Espaçamento acima do texto escondido */
-    color: #333; /* Cor do texto escondido */
 }
 
 #link-continue-lendo {
@@ -285,6 +284,20 @@ body, .btn-form{
     padding-bottom: 1.5rem!important;
 }
 
+.accordion{
+    --bs-accordion-btn-focus-box-shadow: var(--cor-principal);
+}
+
+.accordion-button:not(.collapsed){
+    background-color: var(--cor-principal);
+    color: white;
+    border-color: var(--cor-principal);
+}
+
+.accordion-button:focus{
+    border-color: var(--cor-principal);
+}
+
 @media screen and (max-width: 767px) {
     .header{
         flex-direction: column;
@@ -332,5 +345,10 @@ body, .btn-form{
     .p-left{
         text-align: left;
     }
+
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+
 
 }
