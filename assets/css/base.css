@@ -82,18 +82,24 @@ body, .btn-form{
 
 #texto-escondido {
     display: none;
-    margin-top: 10px; /* Espaçamento acima do texto escondido */
-    color: #333; /* Cor do texto escondido */
+    margin-top: 10px; 
+    color: #333; /
+}
+
+#texto-escondido1 {
+    display: none;  
+    margin-top: 10px; 
+    color: #333; /
 }
 
 #link-continue-lendo {
-    text-decoration: none; /* Remover sublinhado padrão do link */
-    color: #007BFF; /* Cor do link */
-    cursor: pointer; /* Cursor ao passar o mouse sobre o link */
+    text-decoration: none; 
+    color: #007BFF; 
+    cursor: pointer; 
 }
 
 #link-continue-lendo:hover {
-    color: #0056b3; /* Cor do link ao passar o mouse sobre ele */
+    color: #0056b3; 
 }
 
 .texto1{
@@ -114,7 +120,7 @@ body, .btn-form{
 
 .textocampanha{
     font-size: 15px;
-    text-align: center;
+    text-align: left    ;
     line-height: 25px;
 }
 
