@@ -337,6 +337,28 @@ body, .btn-form{
     opacity: 1;
 }
 
+.quem-somos-list{
+    height: 350px;
+    text-align: left;
+}
+
+.icon-quemsomos{
+    margin-right: 10px;
+    align-items: center;
+}
+
+.quem-somos-border{
+    margin-top: 0;
+}
+
+.titulo-contato{
+    display: flex;
+}
+
+.titulo-quemsomos{
+    margin-bottom: 0rem;
+}
+
 @media screen and (max-width: 767px) {
     .header{
         flex-direction: column;
@@ -405,5 +427,8 @@ body, .btn-form{
         flex-direction: row;
     }
 
+    .quem-somos-list{
+        height: auto;
+    }
 
 }
