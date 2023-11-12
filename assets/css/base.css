@@ -86,21 +86,6 @@ body, .btn-form{
     line-height: 25px;
 }
 
-#texto-escondido {
-    display: none;
-    margin-top: 10px; /* Espaçamento acima do texto escondido */
-}
-
-#link-continue-lendo {
-    text-decoration: none; 
-    color: #007BFF; 
-    cursor: pointer; 
-}
-
-#link-continue-lendo:hover {
-    color: #0056b3; 
-}
-
 .texto1{
     font-size: 16px;
     margin-right: -485px;
