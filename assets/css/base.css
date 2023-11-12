@@ -108,6 +108,10 @@ body, .btn-form{
     line-height: 25px;
 }
 
+.SeeMore2{
+    cursor: pointer;
+}
+
 .botaovacinacalendario{
     margin-right: -10px;
     margin-top: 5px;
@@ -117,6 +121,7 @@ body, .btn-form{
     margin-top: 30px;
     margin-left: 380px;
 }
+
 
 .b-example-divider {
     width: 100%;
