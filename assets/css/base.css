@@ -149,6 +149,11 @@ body, .btn-form{
     text-align: end;
 }
 
+.d-flex2{
+    display: flex!important;
+    flex-direction: column;
+}
+
 .titulo-card{
     text-align: center;
     padding-top: 10vh;
@@ -278,6 +283,7 @@ body, .btn-form{
 
 .form-check-input, .form-control{
     border: var(--bs-border-width) solid gray;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 .form-control[type=file]:not(:disabled):not([readonly]){
@@ -357,6 +363,10 @@ body, .btn-form{
 
 .titulo-quemsomos{
     margin-bottom: 0rem;
+}
+
+.div-obrigado{
+    text-align: center;
 }
 
 @media screen and (max-width: 767px) {
