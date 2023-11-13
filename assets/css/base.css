@@ -373,6 +373,10 @@ body, .btn-form{
         flex-direction: column;
     }
 
+    .row-cols-2>*{
+        width: auto;
+    }
+
     .reverse{
         flex-direction: column-reverse;
     }
