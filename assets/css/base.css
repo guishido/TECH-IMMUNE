@@ -55,7 +55,7 @@ body, .btn-form{
 }
 
 .lead{
-    color: rgb(15, 23, 95);
+    color: black;
 }
 
 .display-4{
@@ -285,10 +285,11 @@ body, .btn-form{
 }
 
 .header{
+    margin-top: 20px;
     display: flex!important;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .border-div-top{
@@ -359,9 +360,31 @@ body, .btn-form{
     text-align: center;
 }
 
+.text-wd60{
+    width: 60%;
+}
+
+.text-wd40{
+    width: 40%;
+}
+
+.text-aling-left{
+    text-align: left;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.center{
+    align-items: center;
+}
+
+
 @media screen and (max-width: 767px) {
     .header{
         flex-direction: column;
+        align-items: center;
     }
 
     .nav{
@@ -371,6 +394,14 @@ body, .btn-form{
 
     .row{
         flex-direction: column;
+    }
+
+    .text-wd40{
+        width: 100%;
+    }
+
+    .text-wd60{
+        width: 100%;
     }
 
     .row-cols-2>*{
@@ -421,6 +452,14 @@ body, .btn-form{
 
     .reverse{
         flex-direction: column-reverse;
+    }
+
+    .text-wd40{
+        width: 100%;
+    }
+
+    .text-wd60{
+        width: 100%;
     }
 
     .col-sm-10{
