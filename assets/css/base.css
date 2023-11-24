@@ -436,3 +436,21 @@ body, .btn-form{
     }
 
 }
+
+.accordion-button:hover{
+    background-color: var(--cor-principal)
+}
+
+.accordion-button{
+    background-color: #e5fdf5;
+    margin-bottom: 10px;
+}
+
+.page-link {
+    margin-left: 33rem;
+    margin-top: 2rem;
+}
+
+.page-link:hover{
+    background-color: #e5fdf5;
+}
