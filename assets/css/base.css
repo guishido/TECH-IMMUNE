@@ -485,10 +485,14 @@ body, .btn-form{
     margin-bottom: 10px;
 }
 
-.page-link {
-    margin-left: 33rem;
-    margin-top: 2rem;
+.pagination{
+    justify-content: center;
+
 }
+
+
+
+
 
 .page-link:hover{
     background-color: #e5fdf5;
