@@ -9,6 +9,9 @@
     src: url(../font/Berlin.ttf);
 }
 
+body{
+    background-color: #f3f3f3;
+}
 body, .btn-form{
     font-family: Berlin;
     letter-spacing: 1.5px;
@@ -24,6 +27,22 @@ body, .btn-form{
     --bs-btn-bg: var(--cor-principal);
     --bs-btn-border-color: ;
     font-weight: bold;
+}
+
+.btn-second{
+    --bs-btn-bg: var(--cor-principal);
+    --bs-btn-border-color: #fff;
+    font-weight: bold;
+    color: #ffffff;
+    margin-left: 4rem;
+}
+
+.btn-terceiro{
+    --bs-btn-bg: var(--cor-principal);
+    --bs-btn-border-color: #fff; ;
+    font-weight: bold;
+    color: #ffffff;
+    margin-right: 15rem;
 }
 
 .btn:hover, .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
@@ -55,7 +74,8 @@ body, .btn-form{
 }
 
 .lead{
-    color: black;
+    color: rgb(0, 6, 58);
+    text-align: justify;
 }
 
 .display-4{
@@ -496,4 +516,25 @@ body, .btn-form{
 
 .page-link:hover{
     background-color: #e5fdf5;
+}
+
+.quem-somos-list{
+    text-align: left;
+}
+
+.quem-somos-list1{
+    height: 350px;
+    text-align: left;
+}
+
+.quem-somos-list2{
+    height: 350px;
+    text-align: left;
+
+}
+
+.lead1{
+    color: rgb(0, 6, 58);
+    font-size: 1.25rem;
+    font-weight: 300;
 }
