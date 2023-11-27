@@ -37,6 +37,14 @@ body, .btn-form{
     margin-left: 4rem;
 }
 
+.btn-quinto{
+    --bs-btn-bg: var(--cor-principal);
+    --bs-btn-border-color: #fff;
+    font-weight: bold;
+    color: #ffffff;
+    justify-content: center;
+}
+
 .btn-terceiro{
     --bs-btn-bg: var(--cor-principal);
     --bs-btn-border-color: #fff; ;
@@ -464,6 +472,14 @@ body, .btn-form{
 
     .p-left{
         text-align: left;
+    }
+
+    .btn-quinto{
+        --bs-btn-bg: var(--cor-principal);
+        --bs-btn-border-color: #fff;
+        font-weight: bold;
+        color: #ffffff;
+        justify-content: center;
     }
 
 }
