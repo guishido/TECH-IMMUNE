@@ -25,7 +25,7 @@ body, .btn-form{
 
 .btn-primary{
     --bs-btn-bg: var(--cor-principal);
-    --bs-btn-border-color: #fff;
+    --bs-btn-border-color: ;
     font-weight: bold;
 }
 
@@ -64,6 +64,7 @@ body, .btn-form{
 .btn:hover, .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
     background-color: #51e9b9;
     border-color: #51e9b9;
+    color: #ffffff;
 }
 
 .btn-quarto:hover{
