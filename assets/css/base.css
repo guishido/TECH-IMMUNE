@@ -97,8 +97,17 @@ body, .btn-form{
 .lead{
     color: rgb(0, 6, 58);
     text-align: justify;
-    font-family: calibril;
+    font-family: berlim;
+}  
+
+.lead1{
+    color: rgb(0, 6, 58);
+    font-size: 1.25rem;
+    font-weight: 300;
+    font-family: berlim;
+    
 }
+
 
 .display-4{
     font-size: 50px;
@@ -561,10 +570,4 @@ body, .btn-form{
     height: 350px;
     text-align: left;
 
-}
-
-.lead1{
-    color: rgb(0, 6, 58);
-    font-size: 1.25rem;
-    font-weight: 300;
 }
