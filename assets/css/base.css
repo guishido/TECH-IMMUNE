@@ -25,7 +25,7 @@ body, .btn-form{
 
 .btn-primary{
     --bs-btn-bg: var(--cor-principal);
-    --bs-btn-border-color: ;
+    --bs-btn-border-color: #fff;
     font-weight: bold;
 }
 
