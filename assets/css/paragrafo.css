@@ -1,0 +1,7 @@
+.accordion-body > P{
+    text-align: justify;
+}
+
+.accordion-body > ul > li > p {
+    text-align: justify;
+}
