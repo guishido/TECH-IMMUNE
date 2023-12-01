@@ -49,10 +49,9 @@ body, .btn-form{
 .btn-quarto{
     --bs-btn-bg: var(--cor-principal);
     font-weight: bold;
-    color: #203864;
+    color: white;
     margin-bottom: 5rem;
     margin-left: 20rem;
-    width: 15%;
 }
 
 .btn-terceiro{
@@ -402,7 +401,7 @@ body, .btn-form{
     opacity: 1;
 }
 
-.quem-somos-list{
+.quem-somos-list, .quem-somos-list1,.quem-somos-list2 {
     height: 350px;
     text-align: left;
 }
@@ -460,8 +459,16 @@ body, .btn-form{
         align-items: center;
     }
 
+    .nav-bar-mobile{
+        flex-direction: row;
+    }
+
     .row{
         flex-direction: column;
+    }
+
+    .row-responsive{
+        align-items: baseline;
     }
 
     .text-wd40{
@@ -530,6 +537,11 @@ body, .btn-form{
         margin-top: 0px;
     }
 
+    .quem-somos-list, .quem-somos-list1, .quem-somos-list2{
+        height: auto;
+    }
+
+
 }
 
 @media screen and (min-width: 767px) and (max-width: 1023px) {
@@ -553,8 +565,20 @@ body, .btn-form{
         align-items: center;
     }
 
+    .nav-responsive{
+        align-items: flex-start;
+    }
+
+    .nav-bar-mobile{
+        flex-direction: row;
+    }
+
     .row{
-        flex-direction: column;
+        flex-direction: row;
+    }
+
+    .row-responsive{
+        align-items: baseline;
     }
 
     .reverse{
@@ -573,14 +597,17 @@ body, .btn-form{
         width: 100%;
     }
 
+    .wid-50{
+        width: 50%;
+    }
+
     .row-form{
         flex-direction: row;
     }
 
-    .quem-somos-list{
+    .quem-somos-list, .quem-somos-list1, .quem-somos-list2{
         height: auto;
     }
-    
 
 }
 
@@ -604,19 +631,4 @@ body, .btn-form{
 
 .page-link:hover{
     background-color: #e5fdf5;
-}
-
-.quem-somos-list{
-    text-align: left;
-}
-
-.quem-somos-list1{
-    height: 350px;
-    text-align: left;
-}
-
-.quem-somos-list2{
-    height: 350px;
-    text-align: left;
-
 }
