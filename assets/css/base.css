@@ -27,6 +27,7 @@ body, .btn-form{
     --bs-btn-bg: var(--cor-principal);
     --bs-btn-border-color: ;
     font-weight: bold;
+    margin-top: 40px;
 }
 
 .btn-second{
@@ -49,8 +50,9 @@ body, .btn-form{
     --bs-btn-bg: var(--cor-principal);
     font-weight: bold;
     color: #203864;
-    justify-content: center;
-    width: 50%;
+    margin-bottom: 5rem;
+    margin-left: 20rem;
+    width: 15%;
 }
 
 .btn-terceiro{
@@ -83,6 +85,7 @@ body, .btn-form{
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #000000;
     background-color: #fff;
+    font-family: Berlin;
 }
 
 .py-5 {
@@ -91,20 +94,19 @@ body, .btn-form{
 }
 
 .nav-link:focus, .nav-link:hover{
-    color: #9b9b9b;
+    color: rgb(116, 116, 116);
 }
-
 .lead{
     color: rgb(0, 6, 58);
     text-align: justify;
-    font-family: berlim;
+    font-family: sans-serif;
 }  
 
 .lead1{
     color: rgb(0, 6, 58);
     font-size: 1.25rem;
     font-weight: 300;
-    font-family: berlim;
+    font-family: sans-serif;
     
 }
 
@@ -113,17 +115,20 @@ body, .btn-form{
     font-size: 50px;
     display: flex;
     justify-content: center;
+    font-family: Berlin;
 }
 
 
 .display-5{
     text-align: center;
     font-size: 30px;
+    font-family: Berlin;
 }
 
 .display-6{
     text-align: center;
     font-size: 30px;
+    font-family: Berlin;
 }
 
 .fs-4{
@@ -336,11 +341,19 @@ body, .btn-form{
 }
 
 .header{
-    margin-top: 20px;
     display: flex!important;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: center;
+    
+}
+
+.nav-link{
+    color: rgb(0, 6, 58);
+    margin-top: 40px;
+}
+
+.nav-link1{
+    text-decoration: none;
 }
 
 .border-div-top{
@@ -351,6 +364,7 @@ body, .btn-form{
 .accordion{
     --bs-accordion-btn-focus-box-shadow: var(--cor-principal);
 }
+
 
 .accordion-button:not(.collapsed){
     background-color: var(--cor-principal);
@@ -501,11 +515,42 @@ body, .btn-form{
         justify-content: center;
     }
 
+    .btn-primary{
+        margin-top: 0px;
+    }
+    
+    .header{
+        margin-top: 0px;
+    }
+
+    .nav-link{
+        margin-top: 0px;
+    }
+
 }
 
 @media screen and (min-width: 767px) and (max-width: 1023px) {
 
-    .header, .row{
+    .header{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0px;
+    }
+    
+    .nav-link{
+        margin-top: 10px;
+    }
+
+    .btn-primary{
+        margin-top: 10px;
+    }
+
+    .nav{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .row{
         flex-direction: column;
     }
 
@@ -532,6 +577,7 @@ body, .btn-form{
     .quem-somos-list{
         height: auto;
     }
+    
 
 }
 
