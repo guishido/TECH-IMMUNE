@@ -247,7 +247,7 @@ body, .btn-form{
 }
 
 .icons-footer{
-    width: 100px;
+    width: 150px;
     height: auto;
 }
 
@@ -353,6 +353,10 @@ body, .btn-form{
 
 .nav-link1{
     text-decoration: none;
+}
+
+.link-footer{
+    margin-top: 0px;
 }
 
 .border-div-top{
