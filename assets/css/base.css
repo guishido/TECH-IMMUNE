@@ -621,6 +621,10 @@ body, .btn-form{
     .nav-header{
         justify-content: space-around;
     }
+
+    .col-xxl-8{
+        width: auto;
+    }
 }
 
 .accordion-button:hover{
