@@ -35,45 +35,45 @@
   </div>
   </div>
   <div class="container-md form-container">
-    <form class="formulario" action="https://formsubmit.co/projetos@techimmune.com.br" method="POST"
-      enctype="multipart/form-data">
-      <input type="hidden" name="_cc" value="projetos@techimmune.com.br">
-      <input type="hidden" name="_next" value="techimmune.com.br/obrigado.html">
+    <form class="formulario" action="https://api.staticforms.xyz/submit" method="post" id="staticform">
+      <input type="hidden" name="accessKey" value="daa0a54d-84d3-41e2-a024-1e238cc77109">
+      <input type="hidden" name="subject" value="Test from jsfiddle">
+      <input type="hidden" name="redirectTo" value="http://techimmune.com.br/obrigado.html">
       <div class="form-group row row-form">
         <label for="inputEmail3" class="col-sm-2 col-form-label">Nome</label>
         <div class="col-sm-10">
-          <input type="text" name="Nome" class="form-control" id="inputEmail3" placeholder="Nome">
+          <input type="text" name="name" class="form-control" id="inputEmail3" placeholder="Nome">
         </div>
       </div>
       <div class="form-group row row-form">
         <label for="text" class="col-sm-2 col-form-label">Telefone</label>
         <div class="col-sm-10">
-          <input type="text" name="Telefone" class="form-control" id="inputEmail3" placeholder="(XX) XXXXX-XXXX">
+          <input type="text" name="$Telefone" class="form-control" id="inputEmail3" placeholder="(XX) XXXXX-XXXX">
         </div>
       </div>
       <div class="form-group row row-form">
         <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
         <div class="col-sm-10">
-          <input type="email" name="Email" class="form-control" id="inputEmail3" placeholder="Email">
+          <input type="email" name="email" class="form-control" id="inputEmail3" placeholder="Email">
         </div>
       </div>
       <div class="form-group row row-form">
         <label for="inputEmail3" class="col-sm-2 col-form-label">Empresa</label>
         <div class="col-sm-10">
-          <input type="text" name="Empresa" class="form-control" id="inputEmail3" placeholder="Empresa">
+          <input type="text" name="$Empresa" class="form-control" id="inputEmail3" placeholder="Empresa">
         </div>
       </div>
       <div class="form-group row row-form">
         <label for="inputEmail3" class="col-sm-2 col-form-label">Quantidade de colaboradores</label>
         <div class="col-sm-10">
-          <input type="number" name="Quantidade de colaboradores?" class="form-control" id="inputEmail3"
+          <input type="number" name="$Quantidade de colaboradores?" class="form-control" id="inputEmail3"
             placeholder="Ex: 60">
         </div>
       </div>
       <div class="form-group row row-form">
         <label for="inputEmail3" class="col-sm-2 col-form-label">Quantidade de dependentes</label>
         <div class="col-sm-10">
-          <input type="number" name="Quantidade de dependentes?" class="form-control" id="inputEmail3"
+          <input type="number" name="$Quantidade de dependentes?" class="form-control" id="inputEmail3"
             placeholder="Ex: 60">
         </div>
       </div>
@@ -82,17 +82,17 @@
           <legend class="col-form-label col-sm-2 pt-0">A empresa subsidia a vacina?</legend>
           <div class="col-sm-10">
             <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="Subsidia a vacina?" id="subsidia_a_vacina1"
+              <input class="form-check-input" type="radio" name="$Subsidia a vacina?" id="subsidia_a_vacina1"
                 value="Sim">
               <label class="form-check-label" for="subsidia_a_vacina1">Sim</label>
             </div>
             <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="Subsidia a vacina?" id="subsidia_a_vacina2"
+              <input class="form-check-input" type="radio" name="$Subsidia a vacina?" id="subsidia_a_vacina2"
                 value="Não">
               <label class="form-check-label" for="subsidia_a_vacina2">Não</label>
             </div>
             <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="Subsidia a vacina?" id="subsidia_a_vacina3"
+              <input class="form-check-input" type="radio" name="$Subsidia a vacina?" id="subsidia_a_vacina3"
                 value="Parcial">
               <label class="form-check-label" for="subsidia_a_vacina3">Parcial</label>
             </div>
@@ -102,18 +102,18 @@
       <div class="mb-3">
         <label for="Unidades" class="form-label">Cidades/Bairros onde possui unidades (Preferencialmente com a
           quantidade de colaboradores em cada uma delas)</label>
-        <textarea class="form-control" name="Cidades/Bairros que possui unidade?" id="Unidades" rows="3"></textarea>
+        <textarea class="form-control" name="$Cidades/Bairros que possui unidade?" id="Unidades" rows="3"></textarea>
       </div>
       <fieldset class="form-group">
         <div class="row row-form">
           <legend class="col-form-label col-sm-2 pt-0">Possui turnos?</legend>
           <div class="col-sm-10">
             <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="Possui turno?" id="Possui_turno1" value="Sim">
+              <input class="form-check-input" type="radio" name="$Possui turno?" id="Possui_turno1" value="Sim">
               <label class="form-check-label" for="Possui_turno1">Sim</label>
             </div>
             <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="Possui turno?" id="Possui_turno2" value="Não">
+              <input class="form-check-input" type="radio" name="$Possui turno?" id="Possui_turno2" value="Não">
               <label class="form-check-label" for="Possui_turno2">Não</label>
             </div>
           </div>
@@ -121,13 +121,12 @@
       </fieldset>
       <div class="mb-3">
         <label for="Conte_nos_sobre" class="form-label">Conte-nos sobre suas necessidades</label>
-        <textarea class="form-control" name="Conte-nos sobre" id="Conte_nos_sobre" rows="3"></textarea>
+        <textarea class="form-control" name="$Conte-nos sobre" id="Conte_nos_sobre" rows="3"></textarea>
       </div>
       <div class="mb-3">
-        <label for="" class="form-label">Se preferir, nos envie o arquivo com essas informações clicando aqui ou através
-          do e-mail <a class="link-email" href="mailto:projetos@techimmune.com.br">projetos@techimmune.com.br</a>
+        <label for="" class="form-label">Se preferir, nos envie o arquivo com essas informações por e-mail:
+        <a class="link-email" href="mailto:projetos@techimmune.com.br">projetos@techimmune.com.br</a>
         </label>
-        <input class="form-control" type="file" name="Anexo" id="formFile">
       </div>
       <div class="form-group row">
         <div class="col-sm-10">
@@ -136,7 +135,40 @@
       </div>
     </form>
   </div>
-  </footer>
+
+  <div class="container">
+    <footer class="row row-cols-2 row-cols-sm-3 row-cols-md-3 border-top">
+      <div class="col mb-5">
+        <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+          <img src="assets/img/Imagem1.png" alt="Logo" class="icons-footer">
+        </a>
+        <nav class="nav nav-icons nav-bar-mobile">
+          <a class="nav-link link-footer" target="_blank"
+            href="https://www.facebook.com/profile.php?id=61553610884831"><img class="icons-social"
+              src="assets/img/facebook.svg" alt="Icone Facebook"></a>
+          <a class="nav-link link-footer" target="_blank" href="https://www.instagram.com/tech_immune"><img
+              class="icons-social" src="assets/img/instagram.svg" alt="Icone Instagram"></a>
+          <a class="nav-link link-footer" target="_blank" href="https://www.linkedin.com/company/techimmune/"><img
+              class="icons-social" src="assets/img/linkedin.svg" alt="Icone Linkedin"></a>
+        </nav>
+      </div>
+      <div class="col mb-5">
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="index.html" class="nav-link1 p-0 text-body-secondary">Home</a></li>
+          <li class="nav-item mb-2"><a href="quem-somos.html" class="nav-link1 p-0 text-body-secondary">Quem Somos</a>
+          </li>
+          <li class="nav-item mb-2"><a href="colaboradores.html" class="nav-link1 p-0 text-body-secondary">Proteja seus
+              colaboradores</a></li>
+          <li class="nav-item mb-2"><a href="https://sbim.org.br/images/calendarios/calend-sbim-ocupacional.pdf"
+              class="nav-link1 p-0 text-body-secondary">Calendário de Saúde Ocupacional</a></li>
+          <li class="nav-item mb-2"><a href="vacinadisponivel.html" class="nav-link1 p-0 text-body-secondary">Vacina</a>
+          </li>
+          <li class="nav-item mb-2"><a href="contato.html" class="nav-link1 p-0 text-body-secondary">Contato</a></li>
+          <li class="nav-item mb-2"><a href="solicite-seu-projeto.html"
+              class="nav-link1 p-0 text-body-secondary">Solicite seu Projeto</a></li>
+        </ul>
+      </div>
+    </footer>
   </div>
   <a href="https://wa.me/5511992921633" target="_blank" class="botao-whatsapp"></a>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
