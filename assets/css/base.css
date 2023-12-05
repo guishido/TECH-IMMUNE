@@ -447,6 +447,12 @@ body, .btn-form{
     align-items: center;
 }
 
+@media screen and (max-width: 575px){
+    .margin-cel{
+        padding-left: 0rem!important;
+        padding-right: 0rem!important;
+    }
+}
 
 @media screen and (max-width: 767px) {
     .header{
@@ -611,6 +617,12 @@ body, .btn-form{
 
 }
 
+@media screen and (min-width: 1400px){
+    .nav-header{
+        justify-content: space-around;
+    }
+}
+
 .accordion-button:hover{
     background-color: var(--cor-principal)
 }
@@ -624,10 +636,6 @@ body, .btn-form{
     justify-content: center;
 
 }
-
-
-
-
 
 .page-link:hover{
     background-color: #e5fdf5;
