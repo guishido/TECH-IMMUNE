@@ -14,22 +14,24 @@
 
 <body>
     <div class="container">
-    <header class="d-flex flex-wrap py-4 mb-4 header">
-        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 link-body-emphasis text-decoration-none">
-            <img src="assets/img/Imagem1.png" class="bi" width="200" height="200">
-            </img>
-        </a>
-    <div class="container">
-            <ul class="nav nav-pills">
-                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="quem-somos.html" class="nav-link">Quem Somos</a></li>
-                <li class="nav-item"><a href="colaboradores.html" class="nav-link">Proteja seus colaboradores</a></li>
-                <li class="nav-item"><a href="https://sbim.org.br/images/calendarios/calend-sbim-ocupacional.pdf" class="nav-link">Calendário de Saúde Ocupacional</a>
-                <li class="nav-item"><a href="vacinadisponivel.html" class="nav-link">Vacinas</a>                      
-                <li class="nav-item"><a href="contato.html" class="nav-link">Contato</a></li>
-                <li class="nav-item"><a href="solicite-seu-projeto.html" class="btn btn-primary" role="button"
-                        aria-disabled="true">Solicite seu Projeto</a></li>                                         
-            </ul>
+        <header class="d-flex flex-wrap py-4 mb-4 header">
+            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 link-body-emphasis text-decoration-none">
+                <img src="assets/img/Imagem1.png" class="bi" width="200" height="200">
+                </img>
+            </a>
+            <div class="container">
+                <ul class="nav nav-pills">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="quem-somos.html" class="nav-link">Quem Somos</a></li>
+                    <li class="nav-item"><a href="colaboradores.html" class="nav-link">Proteja seus colaboradores</a>
+                    </li>
+                    <li class="nav-item"><a href="https://sbim.org.br/images/calendarios/calend-sbim-ocupacional.pdf"
+                            class="nav-link">Calendário de Saúde Ocupacional</a>
+                    <li class="nav-item"><a href="vacinadisponivel.html" class="nav-link">Vacinas</a>
+                    <li class="nav-item"><a href="contato.html" class="nav-link">Contato</a></li>
+                    <li class="nav-item"><a href="solicite-seu-projeto.html" class="btn btn-primary" role="button"
+                            aria-disabled="true">Solicite seu Projeto</a></li>
+                </ul>
         </header>
     </div>
 
@@ -39,7 +41,7 @@
                 <h1 class="display-4 fw-bold lh-1 text-body-emphasis">Fale Conosco<br><br></h1>
                 <div class="container-sm div-contato">
                     <div class="col mb-3">
-                        
+
                         <ul class="nav flex-column contato-center">
                             <img src="assets/img/telephone.svg" class="icons-contato" alt="icone Contato">
                             <li class="contato-li">
@@ -80,37 +82,53 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="col-md-10 mx-auto col-lg-5">
-                <form action="https://formsubmit.co/contato@techimmune.com.br" method="POST"
-                    class="p-4 p-md-5 border rounded-3 bg-body-tertiary">
-                    <div class="form-floating mb-2">
-                        <input type="text" name="Nome" class="form-control" id="floatingInput" placeholder="Nome"
-                            required>
-                        <label for="floatingInput">Nome</label>
+                <div class="p-4 p-md-5 border rounded-3 bg-body-tertiary">
+                    <div class="columns">
+                        <div class="column is-half">
+                            <form action="https://api.staticforms.xyz/submit" method="post" id="staticform">
+                                <input type="hidden" name="accessKey" value="daa0a54d-84d3-41e2-a024-1e238cc77109">
+                                <input type="hidden" name="subject" value="Test from jsfiddle">
+                                <input type="hidden" name="redirectTo" value="http://techimmune.com.br/obrigado.html">
+
+                                
+                                <div class="form-floating mb-2">
+                                    <input type="text" name="name" class="form-control" id="floatingInput" placeholder="Nome"
+                                        required>
+                                    <label for="floatingInput">Nome</label>
+                                </div>
+                                </div>
+                        </div>
+                        <div class="form-floating mb-2">
+                            <input type="email" name="email" class="form-control" id="floatingInput" placeholder="email"
+                                required>
+                            <label for="floatingInput">Email</label>
+                        </div>
+                        <div class="form-floating mb-2">
+                            <input type="text" name="$Telefone" class="form-control" id="floatingInput"
+                                placeholder="(XX) XXXXX-XXXX" required>
+                            <label for="floatingInput">Telefone</label>
+                        </div>
+                        <div class="form-floating mb-2 mensagem">
+                            <textarea name="message" cols="30" rows="10" class="form-control campo-texto" id="floatingInput"
+                                placeholder="Mensagem" style="height: 90px;" required></textarea>
+                            <label for="floatingInput">Mensagem</label>
+                        </div>
+                        <button class="w-100 btn btn-lg btn-primary text-btn" type="submit">Enviar</button>
                     </div>
-                    <div class="form-floating mb-2">
-                        <input type="email" name="email" class="form-control" id="floatingInput" placeholder="email"
-                            required>
-                        <label for="floatingInput">Email</label>
-                    </div>
-                    <div class="form-floating mb-2">
-                        <input type="telefone" name="telefone" class="form-control" id="floatingInput"
-                            placeholder="(XX) XXXXX-XXXX" required>
-                        <label for="floatingInput">Telefone</label>
-                    </div>
-                    <div class="form-floating mb-2 mensagem">
-                        <textarea name="mensagem" cols="30" rows="10" class="form-control campo-texto"
-                            id="floatingInput" placeholder="Mensagem" style="height: 90px;" required></textarea>
-                        <label for="floatingInput">Mensagem</label>
-                    </div>
-                    <button class="w-100 btn btn-lg btn-primary text-btn" type="submit">Enviar</button>
-                </form>
+                </div>             
             </div>
+            </form>
         </div>
     </div>
+    </div>
 
-    
+    </div>
+    </div>
+    </div>
+
+
     <div class="container">
         <footer class="row row-cols-2 row-cols-sm-3 row-cols-md-3 border-top">
             <div class="col mb-5">
@@ -123,17 +141,24 @@
                             src="assets/img/facebook.svg" alt="Icone Facebook"></a>
                     <a class="nav-link link-footer" target="_blank" href="https://www.instagram.com/tech_immune"><img
                             class="icons-social" src="assets/img/instagram.svg" alt="Icone Instagram"></a>
-                    <a class="nav-link link-footer" target="_blank" href="https://www.linkedin.com/company/techimmune/"><img
-                            class="icons-social" src="assets/img/linkedin.svg" alt="Icone Linkedin"></a>
+                    <a class="nav-link link-footer" target="_blank"
+                        href="https://www.linkedin.com/company/techimmune/"><img class="icons-social"
+                            src="assets/img/linkedin.svg" alt="Icone Linkedin"></a>
                 </nav>
             </div>
             <div class="col mb-5">
                 <ul class="nav flex-column">
-                    <li class="nav-item mb-2"><a href="index.html" class="nav-link1 p-0 text-body-secondary">Home</a></li>
-                    <li class="nav-item mb-2"><a href="quem-somos.html" class="nav-link1 p-0 text-body-secondary">Quem Somos</a></li>
-                    <li class="nav-item mb-2"><a href="colaboradores.html" class="nav-link1 p-0 text-body-secondary">Proteja seus colaboradores</a></li>
-                    <li class="nav-item mb-2"><a href="https://sbim.org.br/images/calendarios/calend-sbim-ocupacional.pdf" class="nav-link1 p-0 text-body-secondary">Calendário de Saúde Ocupacional</a></li>
-                    <li class="nav-item mb-2"><a href="vacinadisponivel.html" class="nav-link1 p-0 text-body-secondary">Vacina</a></li>
+                    <li class="nav-item mb-2"><a href="index.html" class="nav-link1 p-0 text-body-secondary">Home</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="quem-somos.html" class="nav-link1 p-0 text-body-secondary">Quem
+                            Somos</a></li>
+                    <li class="nav-item mb-2"><a href="colaboradores.html"
+                            class="nav-link1 p-0 text-body-secondary">Proteja seus colaboradores</a></li>
+                    <li class="nav-item mb-2"><a
+                            href="https://sbim.org.br/images/calendarios/calend-sbim-ocupacional.pdf"
+                            class="nav-link1 p-0 text-body-secondary">Calendário de Saúde Ocupacional</a></li>
+                    <li class="nav-item mb-2"><a href="vacinadisponivel.html"
+                            class="nav-link1 p-0 text-body-secondary">Vacina</a></li>
                     <li class="nav-item mb-2"><a href="contato.html"
                             class="nav-link1 p-0 text-body-secondary">Contato</a></li>
                     <li class="nav-item mb-2"><a href="solicite-seu-projeto.html"
